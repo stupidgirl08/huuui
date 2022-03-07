@@ -13,7 +13,7 @@ from ..Helpers.tools import media_type
 from ..Helpers.utils import _cattools, _catutils, _format, install_pip
 from .decorators import admin_cmd, sudo_cmd
 
-LOGS = logging.getLogger("CatUserbot")
+LOGS = logging.getLogger("Zealous")
 
 
 def load_module(shortname, plugin_path=None):

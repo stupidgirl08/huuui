@@ -22,7 +22,7 @@ from ..SQL.globals import addgvar, delgvar, gvarstatus
 from .pluginmanager import load_module
 from .tools import create_supergroup
 
-LOGS = logging.getLogger("CatUserbot")
+LOGS = logging.getLogger("Zealous")
 cmdhr = Config.COMMAND_HAND_LER
 
 
@@ -64,7 +64,7 @@ async def startupmessage():
         if BOTLOG:
             Config.CATUBLOGO = await client.tgbot.send_file(
                 BOTLOG_CHATID,
-                "https://telegra.ph/file/4e3ba8e8f7e535d5a2abe.jpg",
+                "https://telegra.ph/file/88f1a1a2d431d9e5d2bff.jpg",
                 caption="**Your Zealous has been started successfully.**",
                 buttons=[(Button.url("Support", "https://t.me/zealous_support"),)],
             )

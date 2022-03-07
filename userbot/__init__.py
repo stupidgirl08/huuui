@@ -9,12 +9,12 @@ from .SQL.globals import gvarstatus
 
 __version__ = "1.0.0"
 __license__ = "GNU Lesser General Public License v2.1"
-__author__ = "RetroginiUserBot <https://github.com/Kazama009/Retrogini-Userbot>"
-__copyright__ = "RetroginiUserBot Copyright (C) 2022 - 2023  " + __author__
+__author__ = "Zealous <https://github.com/Kazama009/Zealous>"
+__copyright__ = "Zealous Copyright (C) 2022 - 2023  " + __author__
 
 client.version = __version__
 client.tgbot.version = __version__
-LOGS = logging.getLogger("Zelous")
+LOGS = logging.getLogger("Zealous")
 bot = client
 
 StartTime = time.time()
