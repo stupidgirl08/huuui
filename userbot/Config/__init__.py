@@ -1,0 +1,1 @@
+from .zealous_config import Config
